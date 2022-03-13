@@ -4,8 +4,6 @@ COPY . .
 
 RUN apt install git
 
-RUN pip install git
-
 RUN chmod +x config.sh
 
 RUN ./config.sh
